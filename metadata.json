@@ -1,0 +1,7 @@
+{
+  "name": "sm",
+  "description": "A high-performance 3D aim trainer where you can customize targets with your own images and receive AI-driven performance coaching.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
