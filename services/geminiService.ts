@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { GameStats, CoachFeedback } from "../types";
 
 export const getCoachFeedback = async (stats: GameStats): Promise<CoachFeedback> => {
-  // Always use a new GoogleGenAI instance right before making an API call to ensure it always uses the most up-to-date API key.
+
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
   const accuracy = stats.hits + stats.misses > 0 
